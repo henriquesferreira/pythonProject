@@ -20,7 +20,7 @@ ex6 = [v for v in l3 if v % 3 == 0 if v % 8 == 0]
 ex7 = [v if v % 3 == 0 else 'Não é' for v in l3]
 print(ex7)
 """
-
+"""
 string  = '01234567890123456789012345678901234567890123456789'
 n = 10
 contadores = [i for i in range(0, len(string),n)]
@@ -32,3 +32,12 @@ print(contadores)
 print(tuplas)
 print(lista)
 print(retorno)
+"""
+carrinho = []
+
+carrinho.append(('Produto 1', 30))
+carrinho.append(('Produto 2', 20))
+carrinho.append(('Produto 3', 50))
+
+total = sum([y for x,y in carrinho])
+print(total)
