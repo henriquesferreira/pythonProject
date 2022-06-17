@@ -12,6 +12,7 @@ for v1, v2 in enumerate(range(10, 0, -1)):
     print(v1, v2)
 """
 
+"""
 cpf = "16899535009"
 novo_cpf = cpf[:-2]
 reverso = 10
@@ -37,3 +38,4 @@ if cpf == novo_cpf:
     print("Válido")
 else:
     print ("Invalido")
+"""
