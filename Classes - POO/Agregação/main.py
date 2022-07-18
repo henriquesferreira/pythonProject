@@ -1,4 +1,4 @@
-#Agregação: Ambas as classes precisam da outra
+#Agregação: Ambas as classes_bancarias precisam da outra
 
 from classes import CarinhoDeCompras, Produto
 

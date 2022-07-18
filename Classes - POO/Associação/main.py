@@ -1,4 +1,4 @@
-#Associação: Nenhuma das classes depende da outra
+#Associação: Nenhuma das classes_bancarias depende da outra
 
 from classes import Escritor
 from classes import Caneta
